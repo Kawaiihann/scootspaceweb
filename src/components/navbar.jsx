@@ -5,7 +5,7 @@ function Navbar() {
         <>
             <div className='flex h-[80px] border-b-2 border-borderColor'>
     <div className='flex basis-1/6 items-center justify-center'>
-      <img src={logo} width={150} alt=""  />
+      <img className='ml-4' src={logo} width={150} alt=""  />
     </div>
     <div className='flex basis-full'>
     <div className='flex pl-8 basis-full flex-row justify-start gap-8 items-center font-sofia'>
