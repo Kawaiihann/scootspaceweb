@@ -1,5 +1,4 @@
 import heroIcon from "../assets/icons/heroIcon.svg";
-import heroBg from "../assets/background/scootspacebg.png";
 
 function Hero() {
   return (
@@ -17,10 +16,10 @@ function Hero() {
               around."
             </div>
             <div className="flex items-center justify-center gap-5">
-              <button className=" flex justify-center items-center text-white py-[9px] w-44 p-4 bg-primary  rounded-2xl">
+              <button className=" flex justify-center items-center text-white text-center py-[9px] w-44 p-4 bg-primary  rounded-2xl">
                 Download the App
               </button>
-              <button className="flex justify-center items-center text-black py-[9px] w-44 p-4 bg-white rounded-2xl gap-2.5 border-2 border-teal-500">
+              <button className="flex justify-center items-center text-center text-black py-[9px] w-44 p-4 bg-white rounded-2xl gap-2.5 border-2 border-teal-500">
                 How to park?
               </button>
             </div>
