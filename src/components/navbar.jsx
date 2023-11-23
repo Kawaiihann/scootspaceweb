@@ -3,7 +3,7 @@ import logo from "../assets/logo/logo.svg";
 function Navbar() {
   return (
     <>
-      <div className="flex h-[80px] border-b border-gray-300 border-opacity-0.5   shadow-md shadow-white text-base ">
+      <div className="flex h-[80px] border-b border-gray-300 border-opacity-0.5 shadow-md shadow-white text-basee">
         <div className="flex basis-1/6 items-center justify-center">
           <img className="ml-4" src={logo} width={150} alt="" />
         </div>

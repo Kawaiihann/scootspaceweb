@@ -3,9 +3,9 @@ import heroIcon from "../assets/icons/heroIcon.svg";
 function Hero() {
   return (
     <>
-      <div className="flex w-full h-auto bg-heroBg ">
-        <div className="flex basis-[50%] justify-start pl-24  ">
-          <div className="flex flex-col text-start justify-center items-start pl-44 gap-5">
+      <div className="flex w-full h-auto bg-heroBg flex-col lg:flex-row items-center justify-center mx-auto">
+        <div className="flex basis-full lg:basis-[50%] justify-start pl-24  ">
+          <div className="flex flex-col text-start justify-center items-start px-10 w-fit lg:pl-44 gap-5 mx-auto">
             <div class=" text-black text-5xl font-black font-sofia w-[531px] flex align-start  ">
               <h1>Scoot In, Secure Up Welcome to ScootSpace Parking!</h1>
             </div>
@@ -25,10 +25,12 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex basis-[50%]  items-center justify-center pt-24">
-          <img src={heroIcon} alt="" className="pr-24" />
+        <div className="flex basis-full lg:basis-[50%] items-center justify-center pt-14 lg:pt-24 w-fit">
+          <img src={heroIcon} alt="heroImage" className="p-0 lg:pr-24" />
         </div>
       </div>
+
+      <div className="flex flex-1 text-center justifyconten-center al9ign -items center"></div>
     </>
   );
 }

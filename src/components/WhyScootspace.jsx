@@ -23,8 +23,8 @@ function WhyScootspace() {
               </div>
             </div>
 
-            <div className="flex flex-row gap-14 flex-wrap flex-grow-1 pt-16">
-              <div className="flex flex-col justify-center items-center gap-5 bg-white border-solid border-2 rounded-2xl border-borderColor w-72 h-96">
+            <div className="flex flex-row justify-center gap-14 flex-wrap flex-grow-1 pt-16 pb-16">
+              <div className="flex flex-col justify-center items-center gap-5 bg-white  rounded-[20px] shadow-[0px_56px_79px_-20px_rgba(58,175,169,0.20)] border-2 border-teal-500 w-72 h-96 ">
                 <div className="text-center text-black text-xl font-normal font-sofia leading-normal">
                   Exclusive Provider
                 </div>
@@ -41,7 +41,7 @@ function WhyScootspace() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center gap-5 bg-white border-solid border-2 rounded-2xl border-borderColor w-72 h-96">
+              <div className="flex flex-col justify-center items-center gap-5 bg-white  rounded-[20px] shadow-[0px_56px_79px_-20px_rgba(58,175,169,0.20)] border-2 border-teal-500 w-72 h-96 ">
                 <div className="text-center text-black text-xl font-normal font-sofia leading-normal">
                   Free Charging
                 </div>
@@ -58,7 +58,7 @@ function WhyScootspace() {
                 </div>
               </div>
 
-              <div className="flex flex-col justify-center items-center gap-5 bg-white border-solid border-2 rounded-2xl border-borderColor w-72 h-96">
+              <div className="flex flex-col justify-center items-center gap-5 bg-white  rounded-[20px] shadow-[0px_56px_79px_-20px_rgba(58,175,169,0.20)] border-2 border-teal-500 w-72 h-96 ">
                 <div className="text-center text-black text-xl font-normal font-sofia leading-normal">
                   Safety
                 </div>
@@ -70,10 +70,6 @@ function WhyScootspace() {
                 </div>
               </div>
             </div>
-            {/* <div className='text-6xl font-black leading-10 font-sofia'>Why ScootSpace?</div>
-                <div className=' font-black leading-10 font-sofia'>
-                    At ScootSpace, we're more than just a parking facility; we're a revolution in urban mobility. As the sole company offering electric scooter parking solutions in the country, our commitment to convenience, sustainability, and security is unrivaled.
-                    </div> */}
           </div>
         </div>
       </div>
