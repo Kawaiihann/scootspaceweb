@@ -3,20 +3,20 @@ import logo from "../assets/logo/logo.svg";
 function Navbar() {
   return (
     <>
-      <div className="flex h-[80px] border-b border-gray-300 border-opacity-0.5 shadow-md shadow-white text-basee">
-        <div className="flex basis-1/6 items-center justify-center">
-          <img className="ml-4" src={logo} width={150} alt="" />
+      <div className="flex bg-white fixed w-full h-[80px] border-b- border-gray-300 border-w border-opacity-0.5 shadow shadow-borderColor text-base">
+        <div className="flex basis-1/6 items-center ml-11 justify-center min-w-max ">
+          <img src={logo} width={150} alt="" />
         </div>
-        <div className="flex basis-full pl-8">
-          <div className="flex pl-28 basis-full flex-row justify-start gap-8 items-center font-normal  ">
+        <div className="flex basis-full max-lg:invisible ml-28">
+          <div className="flex basis-full flex-row justify-start gap-8 items-center font-normal  ">
             <h2>About </h2>
             <h2>How to park</h2>
             <h2>Pricing</h2>
             <h2>Locations</h2>
           </div>
         </div>
-        <div className="flex basis-1/4 items-center justify-center flex-row pr-6 gap-3">
-          <button className="h-10 w-36  items-center justify-center flex flex-row text-black gap-3">
+        <div className=" flex basis-1/6 items-center justify-center flex-row pr-6 gap-3 ">
+          <button className="h-10 w-36  items-center justify-center flex flex-row text-black gap-3 max-lg:invisible">
             <svg
               width="26"
               height="20"
@@ -31,7 +31,7 @@ function Navbar() {
             </svg>
             English
           </button>
-          <button className="text-white h-10 w-36 bg-primary   rounded-[20px] ">
+          <button className="text-white h-10 w-36 bg-primary rounded-[20px] max-lg:invisible ">
             The App
           </button>
         </div>

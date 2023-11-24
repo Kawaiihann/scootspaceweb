@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <MobileNav />
+      {/* <MobileNav /> */}
       <Hero />
       <WhyScootspace />
     </div>
