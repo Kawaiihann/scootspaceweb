@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": 'url("/src/assets/background/heroBackground.svg")',
         heroBg: 'url("/src/assets/background/scootspacebg.png")',
+        pricingPlanBg: 'url("/src/assets/background/pricingPlanBg.svg")',
       },
       colors: {
         primary: "#3AAFA9",

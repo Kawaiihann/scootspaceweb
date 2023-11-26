@@ -6,6 +6,8 @@ import MobileNav from "./components/mobileNav.jsx";
 import { useEffect } from "react";
 import { useState } from "react";
 import HowToPark from "./components/HowToPark.jsx";
+import HowToUseTheApp from "./components/HowToUseTheApp.jsx";
+import PricingPlan from "./components/PricingPlan.jsx";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -37,6 +39,8 @@ function App() {
       <Hero />
       <WhyScootspace />
       <HowToPark />
+      <HowToUseTheApp />
+      <PricingPlan />
     </div>
   );
 }
