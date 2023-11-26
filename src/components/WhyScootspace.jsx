@@ -7,7 +7,7 @@ function WhyScootspace() {
   return (
     <>
       <div className="h-32"></div>
-      <div className="flex flex=col w-full h-auto items-center justify-center">
+      <div className="flex flex=col w-full h-auto items-center justify-center mb-52">
         <div className="flex flex-col ml-24 mr-24 w-full">
           <div className="flex flex-col justify-center items-center text-black gap-9 ">
             <div className="flex flex-col justify-center items-center gap-5 ">

@@ -13,6 +13,7 @@ module.exports = {
       colors: {
         primary: "#3AAFA9",
         borderColor: "#00A79D",
+        howToParkBg: "#DEF2F1",
       },
     },
   },
