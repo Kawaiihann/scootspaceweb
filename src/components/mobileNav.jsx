@@ -19,15 +19,18 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
       </div>
 
       {showSidebar && (
-        <div className="flex w-full  overflow-hidden">
+        <div className="flex  w-full  overflow-hidden">
           <div className="fixed top-0 left-0 h-screen w-[30%] bg-black bg-opacity-50 text-borderColor p-4"></div>
 
           <div className="fixed top-0 right-0 h-screen w-[70%] bg-white text-borderColor p-4">
-            <button onClick={toggleSidebar} className="text-4xl">
+            <button
+              onClick={toggleSidebar}
+              className="text-4xl flex w-full justify-center items-end flex-col mt-5 mr-5 "
+            >
               &times;
             </button>
-            <ul className="mt-4 text-borderColor">
-              <li>
+            <ul className="text-borderColor flex flex-col items-start gap-10 text-3xl font-sofia font-semibold mt-12 ml-9">
+              <li className="">
                 <a href="#" className="">
                   About Us
                 </a>
@@ -48,6 +51,7 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
                 </a>
               </li>
             </ul>
+            <div className="mt-20">bla bla</div>
           </div>
         </div>
       )}

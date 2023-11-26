@@ -26,7 +26,7 @@ function Hero() {
           </div>
         </div>
         <div className="flex items-center justify-center pt-14 lg:pt-24 w-full lg:w-auto">
-          <img src={heroIcon} alt="heroImage" />
+          <img src={heroIcon} alt="heroImage" className="w-fit xl:w-screen" />
         </div>
       </div>
 
