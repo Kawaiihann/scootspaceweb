@@ -7,7 +7,7 @@ import { useState } from "react";
 const MobileNav = ({ showSidebar, toggleSidebar }) => {
   return (
     <>
-      <div className="flex w-full flex-row h-20 items-center justify-between px-12 border-b border-gray-300 border-opacity-0.5 shadow-md shadow-white text-basee">
+      <div className="flex top-0 fixed bg-white w-full flex-row h-20 items-center justify-between px-12 border-b border-gray-300 border-opacity-0.5 shadow-md shadow-white text-basee">
         <div>
           <img src={logo} width={154} alt="Scootspace logo" />
         </div>
@@ -19,7 +19,7 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
       </div>
 
       {showSidebar && (
-        <div className="flex  w-full  overflow-hidden  duration-200">
+        <div className="flex  w-full fixed  overflow-hidden  duration-200">
           <div className="fixed top-0 left-0 h-screen w-[30%] bg-black bg-opacity-50 text-borderColor p-4"></div>
 
           <div className="fixed top-0 right-0 h-screen w-[70%] bg-white text-borderColor p-4  ">
@@ -48,7 +48,7 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="#PricingPlan"
                   className="hover:border-b-2 hover:border-borderColor p-2 hover:rounded-e-md hover:rounded-s-md"
                 >
                   Pricing

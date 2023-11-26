@@ -9,7 +9,7 @@ function Hero() {
             <div className="text-black  text-4xl sm:text-5xl font-black font-sofia w-full lg:w-[531px] flex align-center max-xl:justify-center">
               <h1>Scoot In, Secure Up Welcome to ScootSpace Parking!</h1>
             </div>
-            <div className="text-black text-normal sm:text-lg font-light font-['Sofia Pro'] w-full lg:w-[531px] leading-tight">
+            <div className="text-black text-normal sm:text-xl font-light font-['Sofia Pro'] w-full lg:w-[531px] leading-tight">
               Our hubs in Skopje offer convenience, sustainability, and
               security. Enjoy easy payments, free charging, and peace of mind as
               you explore the city. Discover a cleaner, greener way to get

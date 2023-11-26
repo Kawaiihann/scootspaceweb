@@ -1,59 +1,74 @@
 import React from "react";
+import scootIcon from "../assets/icons/scootIcon.svg";
 
 function PricingPlan() {
   return (
     <>
-      <div className="flex xl:flex-row-reverse flex-col w-full mb-40 bg-b-pricingPlanBg ">
-        <div className="flex flex=col w-full xl:w-2/6 justify-end mr-28 ">
+      <div
+        id="PricingPlan"
+        className="flex xl:flex-row-reverse max-w-full flex-col mb-40 bg-b-pricingPlanBg gap-5 "
+      >
+        <div className="flex flex=col max-w-full xl:w-2/6 justify-end xl:m ">
           <div className="flex flex-col items-end gap-6">
             <div className="text-black text-5xl font-black font-sofia leading-10  text-end ">
               Pricing Plan
             </div>
-            <div className="text-black text-sm text-end max-w-md font-light font-sofia leading-snug">
+            <div className="text-black text-lg text-end max-w-md font-light font-sofia leading-snug">
               We believe in keeping things straightforward and budget-friendly.
               Our pricing structure consists of a single plan:
             </div>
           </div>
         </div>
-        <div className="flex flex=col w-full xl:w-2/6  justify-center items-center mx-4">
+        <div className="flex flex=col max-w-5xl xl:w-2/6  justify-center items-center mx-4">
           <div className="flex flex-col items-center ">
-            <div className="mainrectangle flex flex-col justify-between h-[700px] w-[500px] bg-gradient-to-b from-teal-500 to-teal-700  rounded-3xl border-4 border-white">
-              <div className="flex flex-row justify-between pt-4">
-                <div className="w-32 h-16 text-white text-2xl font-black font-sofia leading-tight">
+            <div className="mainrectangle flex flex-col gap-10 justify-between  bg-gradient-to-b from-teal-500 to-teal-700  rounded-3xl border-4 border-white">
+              <div className="flex flex-row justify-between items-center pt-10 px-5 ">
+                <div className=" text-white text-start justify-center items-center text-4xl max-w-[200px] font-black font-sofia leading-tight">
                   Price per hour
-                </div>{" "}
-                <div className="w-48 h-24 text-center ">
-                  <span className="text-white text-6xl font-black font-sofia">
-                    120
-                  </span>
-                  <span className="text-white text-3xl font-black font-sofia">
-                    den/h
-                  </span>
+                </div>
+                <div className="text-white text-3xl font-black font-sofia leading-tight">
+                  <span className="text-6xl">120</span>den/h
                 </div>
               </div>
-              <div className="flex justify-center items-center">
-                {" "}
-                <div className="w-80 h-[0.5px] rounded-full border-2  justify-center items-center border-white">
-                  -
-                </div>
-              </div>
+
               <div className="flex flex-col gap-6 justify-center items-center ">
-                <ul className="flex flex-col gap-6 text-start">
-                  <li>Secure Scooter Lock</li>
-                  <li>Easy and Safe Payment Options</li>
-                  <li>Free Scooter Charger</li>
-                  <li>Prime Location Advantage</li>
+                <div className="flex justify-start items-start w-72 rounded-full h-1 mb-14 bg-white "></div>
+                <ul className="flex flex-col gap-6 text-start text-white text-xl font-normal font-['Sofia Pro']">
+                  <li className="inline-flex gap-4">
+                    <span>
+                      <img src={scootIcon} alt="" />
+                    </span>
+                    Secure Scooter Lock
+                  </li>
+                  <li className="inline-flex gap-4">
+                    <span>
+                      <img src={scootIcon} alt="" />
+                    </span>
+                    Easy and Safe Payment Options
+                  </li>
+                  <li className="inline-flex gap-4">
+                    <span>
+                      <img src={scootIcon} alt="" />
+                    </span>
+                    Free Scooter Charger
+                  </li>
+                  <li className="inline-flex gap-4">
+                    <span>
+                      <img src={scootIcon} alt="" />
+                    </span>
+                    Prime Location Advantage
+                  </li>
                 </ul>
               </div>
-              <div className="flex flex-col items-center justify-end">
-                <button className="flex w-full sm:w-44 justify-center items-center text-center text-black py-2 px-3 bg-white rounded-2xl gap-2.5 border-2 border-teal-500 ">
-                  How to park?
+              <div className="flex flex-col items-center justify-end py-10">
+                <button className="flex w-44 justify-center items-center text-center text-black py-3 px-4 bg-white rounded-2xl gap-2.5 border-2 border-teal-500  ">
+                  Buy Now!
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div className="flex flex=col w-full xl:w-2/6 justify-start items-end ml-28">
+        <div className="flex flex=col w-full xl:w-2/6 justify-start items-end ">
           <div className="flex-col justify-center items-center">
             <div className="text-black text-sm text-start max-w-md font-light font-sofia leading-snug">
               With ScootSpace, you get more than just parking; you get a

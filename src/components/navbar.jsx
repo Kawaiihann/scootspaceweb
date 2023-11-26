@@ -9,10 +9,18 @@ function Navbar() {
         </div>
         <div className="flex basis-full max-lg:invisible ml-28">
           <div className="flex basis-full flex-row justify-start gap-8 items-center font-normal  ">
-            <h2>About Us </h2>
-            <h2>How to park</h2>
-            <h2>Pricing</h2>
-            <h2>Locations</h2>
+            <h2>
+              <a href="">About Us</a>{" "}
+            </h2>
+            <h2>
+              <a href="">How to park</a>
+            </h2>
+            <h2>
+              <a href="#PricingPlan">Pricing</a>
+            </h2>
+            <h2>
+              <a href="">Locations</a>
+            </h2>
           </div>
         </div>
         <div className=" flex basis-1/6 items-center justify-center flex-row mr-11">

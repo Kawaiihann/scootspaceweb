@@ -14,7 +14,7 @@ function WhyScootspace() {
               <div className="text-black font-sofia font-black text-5xl leading-10 ">
                 Why ScootSpace?
               </div>
-              <div className="max-w-screen-xl text-center text-black text-lg font-light font-['Sofia Pro'] leading-snug">
+              <div className="max-w-screen-xl text-center text-black text-xl font-light font-['Sofia Pro'] leading-snug">
                 At ScootSpace, we're more than just a parking facility; we're a
                 revolution in urban mobility. As the sole company offering
                 electric scooter parking solutions in the country, our

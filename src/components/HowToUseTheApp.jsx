@@ -5,38 +5,9 @@ import guide2 from "../assets/steps/guide2.png";
 import guide3 from "../assets/steps/guide3.png";
 
 function HowToUseTheApp() {
-  const [steps] = useState([
-    {
-      title: "Download the app",
-      description: `1. Open your smartphones app store (iOS App Store or Google Play Store).
-      2. Search for ScootSpace and download the official app.
-      3. Install the app on your device and open it.`,
-      image: guide1,
-    },
-    {
-      title: "Scan the QR code",
-      description: "Scan the QR code on the ScootSpace hub to open the door.",
-      image: guide2,
-    },
-    {
-      title: "Park your scooter",
-      description: "Park your scooter in the hub and close the door.",
-      image: guide3,
-    },
-    // {
-    //     title: "Make a payment",
-    //     description: "Make a payment using the ScootSpace app.",
-    //     image: "",
-    // },
-    // {
-    //     title: "Enjoy the city",
-    //     description: "Explore the city with peace of mind.",
-    //     image: "",
-    // },
-  ]);
   return (
     <>
-      <div className="h-32"></div>
+      <div id="" className="h-32"></div>
       <div className="flex flex=col w-full h-auto items-center justify-center mb-52">
         <div className="flex flex-col ml-16 mr-16 w-full">
           <div className="flex flex-col justify-center items-center text-black gap-9 ">
