@@ -3,7 +3,7 @@ import heroIcon from "../assets/icons/heroIcon.svg";
 function Hero() {
   return (
     <>
-      <div className="flex pt-20 w-full max-w-screen-2xl h-auto bg-heroBg flex-col xl:flex-row items-center justify-center ">
+      <div className="flex pt-20 w-full max-w-screen-xl h-auto bg-heroBg flex-col xl:flex-row items-center justify-center ">
         <div className="flex flex-col lg:flex-row justify-center w-full">
           <div className="flex flex-col text-center xl:text-start items-center xl:items-start w-full lg:w-auto gap-5 mx-auto px-4 sm:px-8 pt-10 justify-start">
             <div className="text-black  text-4xl sm:text-5xl font-black font-sofia w-full lg:w-[531px] flex align-center max-xl:justify-center">

@@ -8,6 +8,7 @@ import { useState } from "react";
 import HowToPark from "./components/HowToPark.jsx";
 import HowToUseTheApp from "./components/HowToUseTheApp.jsx";
 import PricingPlan from "./components/PricingPlan.jsx";
+import Locations from "./components/Locations.jsx";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -41,6 +42,7 @@ function App() {
       <HowToPark />
       <HowToUseTheApp />
       <PricingPlan />
+      <Locations />
     </div>
   );
 }
