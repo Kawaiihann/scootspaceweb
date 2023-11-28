@@ -8,6 +8,8 @@ import { useState } from "react";
 import HowToPark from "./components/HowToPark.jsx";
 import HowToUseTheApp from "./components/HowToUseTheApp.jsx";
 import PricingPlan from "./components/PricingPlan.jsx";
+import Footer from "./components/Footer.jsx";
+import MobileFooter from "./components/MobileFooter.jsx";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -24,6 +26,7 @@ function App() {
   }, []);
 
   const isMobile = windowWidth <= 1024;
+  const footerIsMobile = windowWidth <= 768;
 
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
@@ -41,6 +44,7 @@ function App() {
       <HowToPark />
       <HowToUseTheApp />
       <PricingPlan />
+      {footerIsMobile ? <MobileFooter /> : <Footer />}
     </div>
   );
 }

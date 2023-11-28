@@ -6,7 +6,7 @@ function PricingPlan() {
     <>
       <div
         id="PricingPlan"
-        className="flex xl:flex-row-reverse max-w-full flex-col mb-40 bg-b-pricingPlanBg gap-5 "
+        className="flex xl:flex-row-reverse xl:max-w-full w-[95%]  flex-col mb-40 bg-b-pricingPlanBg gap-5 "
       >
         <div className="flex flex=col max-w-full xl:w-2/6 justify-end xl:m ">
           <div className="flex flex-col items-end gap-6">
@@ -22,8 +22,8 @@ function PricingPlan() {
         <div className="flex flex=col max-w-5xl xl:w-2/6  justify-center items-center mx-4">
           <div className="flex flex-col items-center ">
             <div className="mainrectangle flex flex-col gap-10 justify-between  bg-gradient-to-b from-teal-500 to-teal-700  rounded-3xl border-4 border-white">
-              <div className="flex flex-row justify-between items-center pt-10 px-5 ">
-                <div className=" text-white text-start justify-center items-center text-4xl max-w-[200px] font-black font-sofia leading-tight">
+              <div className="flex flex-row justify-between items-center pt-10 px-5 gap-5 ">
+                <div className=" text-white text-start justify-center items-center xl:text-4xl text-4xl max-w-[200px] font-black font-sofia leading-tight">
                   Price per hour
                 </div>
                 <div className="text-white text-3xl font-black font-sofia leading-tight">
