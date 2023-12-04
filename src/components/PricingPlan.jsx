@@ -6,9 +6,9 @@ function PricingPlan() {
     <>
       <div
         id="PricingPlan"
-        className="flex xl:flex-row-reverse xl:max-w-full w-[95%]  flex-col mb-40 bg-b-pricingPlanBg gap-5 "
+        className="flex xl:flex-row-reverse xl:max-w-full w-[95%]  flex-col  bg-b-pricingPlanBg gap-5 mb-10   "
       >
-        <div className="flex flex=col max-w-full xl:w-2/6 justify-end xl:m ">
+        <div className="flex flex=col max-w-full xl:w-2/6 justify-end xl:m mt-10 ">
           <div className="flex flex-col items-end gap-6">
             <div className="text-black text-5xl font-black font-sofia leading-10  text-end ">
               Pricing Plan
@@ -19,7 +19,7 @@ function PricingPlan() {
             </div>
           </div>
         </div>
-        <div className="flex flex=col max-w-5xl xl:w-2/6  justify-center items-center mx-4">
+        <div className="flex flex=col max-w-5xl xl:w-2/6  justify-center items-center mx-4 mt-10">
           <div className="flex flex-col items-center ">
             <div className="mainrectangle flex flex-col gap-10 justify-between  bg-gradient-to-b from-teal-500 to-teal-700  rounded-3xl border-4 border-white">
               <div className="flex flex-row justify-between items-center pt-10 px-5 gap-5 ">
@@ -31,7 +31,7 @@ function PricingPlan() {
                 </div>
               </div>
 
-              <div className="flex flex-col gap-6 justify-center items-center ">
+              <div className="flex flex-col gap-6 justify-center items-center mt-10 ">
                 <div className="flex justify-start items-start w-72 rounded-full h-1 mb-14 bg-white "></div>
                 <ul className="flex flex-col gap-6 text-start text-white text-xl font-normal font-['Sofia Pro']">
                   <li className="inline-flex gap-4">

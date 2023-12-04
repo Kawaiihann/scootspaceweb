@@ -38,8 +38,11 @@ function HowToPark() {
 
   return (
     <>
-      <div className="flex max-w-screen-3xl h-auto w-full bg-howToParkBg xl:flex-row flex-col ">
-        <div className="flex items-start flex-col xl:w-2/4 w-full mt-32">
+      <div
+        id="howToPark"
+        className="flex max-w-screen-3xl h-auto w-full bg-howToParkBg xl:flex-row flex-col "
+      >
+        <div className="flex items-start flex-col xl:w-2/4 w-full mt-12">
           <div className="flex flex-col gap-5 xl:ml-28  sm:mr-0 ml-0 xl:items-start items-center h-auto ">
             <div className="text-black text-5xl font-black font-sofia leading-10 xl:text-start text-center ">
               How to park?

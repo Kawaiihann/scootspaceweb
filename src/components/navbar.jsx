@@ -13,13 +13,13 @@ function Navbar() {
               <a href="">About Us</a>{" "}
             </h2>
             <h2>
-              <a href="">How to park</a>
+              <a href="#howToPark">How to park</a>
             </h2>
             <h2>
               <a href="#PricingPlan">Pricing</a>
             </h2>
             <h2>
-              <a href="">Locations</a>
+              <a href="#Locations">Locations</a>
             </h2>
           </div>
         </div>

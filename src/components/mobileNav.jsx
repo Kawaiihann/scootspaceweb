@@ -47,8 +47,9 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
             </li>
             <li>
               <a
-                href="#"
+                href="#howToPark"
                 className="hover:border-b-2 hover:border-borderColor p-2 hover:rounded-e-md hover:rounded-s-md "
+                onClick={toggleSidebar}
               >
                 How to park
               </a>
@@ -56,6 +57,7 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
             <li>
               <a
                 href="#PricingPlan"
+                onClick={toggleSidebar}
                 className="hover:border-b-2 hover:border-borderColor p-2 hover:rounded-e-md hover:rounded-s-md"
               >
                 Pricing
@@ -63,7 +65,8 @@ const MobileNav = ({ showSidebar, toggleSidebar }) => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Locations"
+                onClick={toggleSidebar}
                 className="hover:border-b-2 hover:border-borderColor p-2 hover:rounded-e-md hover:rounded-s-md"
               >
                 Locations

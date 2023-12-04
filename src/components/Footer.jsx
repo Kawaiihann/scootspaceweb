@@ -7,7 +7,7 @@ import twitter from "../assets/icons/twitter.svg";
 function Footer() {
   return (
     <>
-      <div className="flex flex-row xl:w-full w-[95%]  mb-10">
+      <div className="flex flex-row xl:w-full w-[95%] pt-10  mb-10">
         <div className="flex flex-col gap-6 justify items-start w-full xl:px-28 ">
           <div className="flex flex-row justify-start items-start">
             <ul className="flex flex-row justify-center items-start gap-7 text-center text-black text-2xl font-normal font-sofia leading-7">
