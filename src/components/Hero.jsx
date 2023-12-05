@@ -16,10 +16,10 @@ function Hero() {
               around."
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center xl:justify-start  gap-5 w-full">
-              <button className="flex w-full sm:w-44 justify-center items-center text-white text-center py-2 px-3 border-primary bg-primary gap-2.5 border-2 rounded-2xl">
+              <button className="flex w-full sm:w-44 justify-center items-center text-white text-center py-2 px-3 border-primary bg-primary gap-2.5 border-2 rounded-2xl hover:bg-teal-600 hover:ring-2 hover:ring-borderColor">
                 Download the App
               </button>
-              <button className="flex w-full sm:w-44 justify-center items-center text-center text-black py-2 px-3 bg-white rounded-2xl gap-2.5 border-2 border-teal-500">
+              <button className="flex w-full sm:w-44 justify-center items-center text-center text-black py-2 px-3 bg-white rounded-2xl gap-2.5 border-2 border-primary hover:border-teal-600 hover:ring-2 ring-borderColor">
                 How to park?
               </button>
             </div>

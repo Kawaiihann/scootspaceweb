@@ -6,7 +6,7 @@ function PricingPlan() {
     <>
       <div
         id="PricingPlan"
-        className="flex xl:flex-row-reverse xl:max-w-full w-[95%]  flex-col  bg-b-pricingPlanBg gap-5 mb-10   "
+        className="flex xl:flex-row-reverse xl:max-w-full w-[95%] min-h-screen  flex-col  bg-b-pricingPlanBg gap-5 mb-10   "
       >
         <div className="flex flex=col max-w-full xl:w-2/6 justify-end xl:m mt-10 ">
           <div className="flex flex-col items-end gap-6">
@@ -61,7 +61,7 @@ function PricingPlan() {
                 </ul>
               </div>
               <div className="flex flex-col items-center justify-end py-10">
-                <button className="flex w-44 justify-center items-center text-center text-black py-3 px-4 bg-white rounded-2xl gap-2.5 border-2 border-teal-500  ">
+                <button className="flex w-44 justify-center items-center text-center text-black py-3 px-4 bg-white rounded-2xl gap-2.5 border-2 border-borderColor hover:border-teal-200 hover:scale-105 ">
                   Buy Now!
                 </button>
               </div>
